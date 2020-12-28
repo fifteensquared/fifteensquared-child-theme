@@ -3,6 +3,8 @@
  * GeneratePress child theme functions and definitions.
  */
 
+ /* These styles will be applied to the Classic editor content */
+
 add_editor_style(['xw-utils.css', 'editor.css']);
 
 function fts_theme_enqueue_styles() {
