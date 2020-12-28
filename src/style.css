@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Fifteensquared Child Theme
+ Theme URI:    http://fifteensquared.net
+ Description:  Child theme for fifteensquared.net based on GeneratePress
+ Author:       Paul Drury and Geoff Moss
+ Author URI:   admin@fifteensquared.net
+ Template:     generatepress
+ Version:      0.9.0
+*/
+
+
+/* add comment numbering */
+.bypostauthor {
+  display: list-item;
+}
+li.depth-1 {
+  list-style-type: decimal;
+}
+/* remove table borders */
+table, th, td {
+  border: 0;
+}
+/* add search widget submit button */
+.widget_search .search-form .search-submit {
+  display: inline;
+}
+/* customise text */
+.sidebar .widget{
+	font-weight:500;
+}
+.main-title a:hover {
+	color: #424242;
+}
+/* set comment author colour */
+.comment-author {
+	color: #4682b4;
+}
+/* customise comment layout */
+.comment-body {
+  padding: 10px 0;
+	border-top: 1px solid #4682b4;
+}
+.comment-content {
+  padding: 0px;
+  border: 0px solid #fdfdfd;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+/* make mobile meta same as desktop */
+@media (max-width: 768px)
+.entry-meta {
+  color: #424242;
+}
+.entry-meta {
+  font-size: 85%;
+  margin-top: .5em;
+  line-height: 1.5;
+}
+/* reduce space between title and meta */
+.entry-meta {
+  margin-top: 5px;
+}
+/* provide line between posts */
+.post {
+  margin-bottom: 10px;
+	border-bottom: 1px solid #4682b4
+}
+/* underline link on hover */
+a:hover, a:focus, a:active {
+ text-decoration: underline;
+}
+/* remove WordPress & RSS links from Meta widget */
+.widget_meta ul li:nth-last-of-type(-n + 3) {
+ display: none;
+}
+
