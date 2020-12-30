@@ -5,9 +5,8 @@
  Author:       Paul Drury and Geoff Moss
  Author URI:   admin@fifteensquared.net
  Template:     generatepress
- Version:      0.9.0
+ Version:      0.9.1
 */
-
 
 /* add comment numbering */
 .bypostauthor {
@@ -72,5 +71,10 @@ a:hover, a:focus, a:active {
 /* remove WordPress & RSS links from Meta widget */
 .widget_meta ul li:nth-last-of-type(-n + 3) {
  display: none;
+}
+/* reduce table padding */
+td, th {
+    padding-top: 0px;
+    padding-left: 0px;
 }
 
