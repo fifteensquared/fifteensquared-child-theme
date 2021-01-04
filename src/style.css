@@ -5,7 +5,7 @@
  Author:       Paul Drury and Geoff Moss
  Author URI:   admin@fifteensquared.net
  Template:     generatepress
- Version:      0.9.1
+ Version:      0.9.6
 */
 
 /* add comment numbering */
@@ -78,3 +78,10 @@ td, th {
     padding-left: 0px;
 }
 
+/* change blockquote style */
+blockquote {
+    border-left: 3px solid #4682b4;
+    padding-left: 25px;
+    background: #ecf2f7;
+    font-size: 15px;
+}
