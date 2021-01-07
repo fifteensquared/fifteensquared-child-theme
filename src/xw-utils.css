@@ -53,8 +53,10 @@ fts-definition  Added to each element containing clue text to be marked as defin
 }
 
 /* formats for table layout */
-
-.fts.fts-table td {
+.fts-table table {
+    border-collapse: collapse;
+}
+.fts-table td {
     vertical-align: top;
 }
 .fts-table.fts-spacing-large .fts-group {
@@ -76,3 +78,4 @@ fts-definition  Added to each element containing clue text to be marked as defin
 .fts-table.fts-spacing-small .fts-subgroup {
     padding-top: 2px;
 }
+
