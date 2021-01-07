@@ -5,75 +5,87 @@
  Author:       Paul Drury and Geoff Moss
  Author URI:   admin@fifteensquared.net
  Template:     generatepress
- Version:      0.9.6
+ Version:      0.9.9
 */
 
 /* add comment numbering */
 .bypostauthor {
-  display: list-item;
+    display: list-item;
 }
+
 li.depth-1 {
-  list-style-type: decimal;
+    list-style-type: decimal;
 }
-/* remove table borders */
-table, th, td {
-  border: 0;
-}
+
 /* add search widget submit button */
 .widget_search .search-form .search-submit {
-  display: inline;
+    display: inline;
 }
+
 /* customise text */
-.sidebar .widget{
-	font-weight:500;
+.sidebar .widget {
+    font-weight: 500;
 }
+
 .main-title a:hover {
-	color: #424242;
+    color: #424242;
 }
+
 /* set comment author colour */
 .comment-author {
-	color: #4682b4;
+    color: #4682b4;
 }
+
 /* customise comment layout */
 .comment-body {
-  padding: 10px 0;
-	border-top: 1px solid #4682b4;
+    padding: 10px 0;
+    border-top: 1px solid #4682b4;
 }
+
 .comment-content {
-  padding: 0px;
-  border: 0px solid #fdfdfd;
-	margin-top: 10px;
-	padding-bottom: 10px;
+    padding: 0px;
+    border: 0px solid #fdfdfd;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
+
 /* make mobile meta same as desktop */
-@media (max-width: 768px)
-.entry-meta {
-  color: #424242;
+@media (max-width: 768px) .entry-meta {
+    color: #424242;
 }
+
 .entry-meta {
-  font-size: 85%;
-  margin-top: .5em;
-  line-height: 1.5;
+    font-size: 85%;
+    margin-top: .5em;
+    line-height: 1.5;
 }
+
 /* reduce space between title and meta */
 .entry-meta {
-  margin-top: 5px;
+    margin-top: 5px;
 }
+
 /* provide line between posts */
 .post {
-  margin-bottom: 10px;
-	border-bottom: 1px solid #4682b4
+    margin-bottom: 10px;
+    border-bottom: 1px solid #4682b4
 }
+
 /* underline link on hover */
-a:hover, a:focus, a:active {
- text-decoration: underline;
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
 }
+
 /* remove WordPress & RSS links from Meta widget */
 .widget_meta ul li:nth-last-of-type(-n + 3) {
- display: none;
+    display: none;
 }
+
 /* reduce table padding */
-td, th {
+td,
+th {
     padding-top: 0px;
     padding-left: 0px;
 }
@@ -84,4 +96,31 @@ blockquote {
     padding-left: 25px;
     background: #ecf2f7;
     font-size: 15px;
+}
+
+/* hide quote button on quicktags plugin */
+#qt_comment_quote {
+    Visibility: hidden;
+}
+
+/* restore tables to borderless look and feel*/
+table,
+tr,
+th,
+td {
+    border: 0;
+}
+
+.site-main table[border='0'],
+.site-main table[border='0'] tr,
+.site-main table[border='0'] th,
+.site-main table[border='0'] td {
+    border: 0;
+}
+
+.site-main table[border='1'],
+.site-main table[border='1'] tr,
+.site-main table[border='1'] th,
+.site-main table[border='1'] td {
+    border: 1px solid #424242;
 }
