@@ -110,17 +110,3 @@ th,
 td {
     border: 0;
 }
-
-.site-main table[border='0'],
-.site-main table[border='0'] tr,
-.site-main table[border='0'] th,
-.site-main table[border='0'] td {
-    border: 0;
-}
-
-.site-main table[border='1'],
-.site-main table[border='1'] tr,
-.site-main table[border='1'] th,
-.site-main table[border='1'] td {
-    border: 1px solid #424242;
-}
