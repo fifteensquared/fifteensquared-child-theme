@@ -34,5 +34,4 @@ add_action( 'wp_enqueue_scripts', 'fts_theme_enqueue_styles' );
 /* include miscellaneous php functions to support child theme */
 include(__DIR__."/fifteensquared.php");
 
-
 ?>

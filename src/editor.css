@@ -1,3 +1,6 @@
 table.mce-item-table {
   table-layout: auto !important;
 }
+table.mce-item-table[border='1'] {
+    table-layout:  auto !important;
+}
